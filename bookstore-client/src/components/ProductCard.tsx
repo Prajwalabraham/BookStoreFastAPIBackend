@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -7,7 +6,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import BasicRating from './BasicRating';
 
-export default function ProductCard({book}) {
+export default function ProductCard({book:any}) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia

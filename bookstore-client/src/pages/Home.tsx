@@ -1,7 +1,5 @@
 import React from 'react'
 import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
@@ -46,9 +44,11 @@ function Home() {
   // }, [searchValue])
   
   
-  const handleDataChange = (e) => {
+  const handleDataChange = (e:any) => {
     // Do something in the parent component when the data changes
     setSearchValue(e);
+    console.log(searchValue);
+    
   };
 
 
@@ -74,7 +74,7 @@ function Home() {
         }}>Buy and sell your
           textbooks for the
           best price.</h1>
-          <Button variant="Outlined" size="large" style={{
+          <Button variant="outlined" size="large" sx={{
             width:'50%',
             height:'60px',
             marginLeft:'50px',

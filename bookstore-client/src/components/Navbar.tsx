@@ -15,7 +15,6 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
-import Logo from '../assets/logo.png';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import LocalMallOutlinedIcon from '@mui/icons-material/LocalMallOutlined';
 import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
@@ -60,8 +59,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-export default function Navbar({onDataChange}) {
-  const [searchValue, setSearchValue] = React.useState('')
+export default function Navbar({onDataChange:any}) {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] =
     React.useState<null | HTMLElement>(null);
@@ -86,7 +84,7 @@ export default function Navbar({onDataChange}) {
     setMobileMoreAnchorEl(event.currentTarget);
   };
 
-  const handleDataChange = (e) => {
+  const handleDataChange = (e:any) => {
     onDataChange(e.target.value);
   };
 

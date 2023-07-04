@@ -13,3 +13,4 @@ sqlalchemy_database==0.1.0
 sqlmodel==0.0.8
 sqlparse==0.4.2
 uvicorn==0.22.0
+psycopg2==2.9.6
