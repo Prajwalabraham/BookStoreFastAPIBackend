@@ -5,15 +5,6 @@ fastapi-utils==0.2.1
 fastapi_amis_admin==0.5.7
 fastapi_scheduler==0.0.12
 fastjsonschema==2.16.2
-fire==0.5.0
-Flask==2.3.2
-flatbuffers==22.9.24
-fonttools==4.37.4
-future==0.18.3
-fvcore==0.1.5.post20221221
-gast==0.4.0
-gitdb==4.0.9
-h11==0.14.0
 requests==2.31.0
 schedule==1.2.0
 SQLAlchemy==1.4.41
@@ -21,9 +12,4 @@ sqlalchemy2-stubs==0.0.2a34
 sqlalchemy_database==0.1.0
 sqlmodel==0.0.8
 sqlparse==0.4.2
-stack-data==0.5.1
-testpath==0.6.0
-urllib3==1.26.9
 uvicorn==0.22.0
-websocket-client==1.4.1
-yacs==0.1.8
